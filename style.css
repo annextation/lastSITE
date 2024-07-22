@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.add-task {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#task-input, #task-date {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-task-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.task-card {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-text {
+    flex: 1;
+}
+
+.task-date {
+    font-size: 14px;
+    color: gray;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task-checkbox {
+    margin-right: 10px;
+}
+
+.delete-button, .up-button, .down-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.up-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.down-button {
+    background-color: #2196F3;
+    color: white;
+}
+
+#delete-selected-button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
